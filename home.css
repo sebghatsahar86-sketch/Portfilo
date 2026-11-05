@@ -1,0 +1,903 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.Gcontinar{
+    /* filter: brightness(50%); */
+    background-image: url("Annotation 2026-10-14 215543.jpg");
+    position: absolute;
+    background-size: cover;
+    width: 1330px;
+    height: 900px;
+    /* background-color: rgb(27, 27, 60); */
+background-repeat: no-repeat ;
+
+  
+
+}
+.diveforbigpic{
+    filter: brightness(100%);
+    margin-top: 0px;
+    /* margin-left: 130px; */
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-size: cover;
+border-radius: 5px;
+background-image: url("Annotation 2026-10-14 215543.jpg");
+}
+
+#bigpic{
+    filter: brightness(200%);
+    /* width: 800px; */
+    height: 300px;
+    margin-left: 735px;
+}
+
+#iam{
+  
+    padding: 3px;
+  border: 1px solid black;
+    border-radius: 10px;
+    font-family:unset;
+    margin-left: 200px;
+    margin-top: -300px;
+    color: aliceblue;
+    background-color: rgb(78, 78, 159);
+    /* background-color: aliceblue; */
+  
+    position: absolute;
+}
+#sebghatullah{
+    color: aliceblue;
+  position: absolute; 
+  margin-top: -280px; 
+ margin-left: 180px;
+ font-size: 60px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#saha{
+    font-size: 75px;
+color: #ffc814;
+margin-left: -329px;
+position: absolute;
+margin-top: -40px;
+}
+#paragraph{
+font-weight: 20px;
+    margin-left: 180px;
+    position: absolute;
+    margin-top: -165px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif   ;
+    color: #efc547;
+    
+}
+#aboutm{
+    font-size: 15px;
+    margin-left: 85px;
+/* position: absolute; */
+margin-top: -130px;
+color: rgb(250, 250, 250);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.btninbigpic{
+  
+   box-shadow: 2px 3px 10px black;
+    color: #ffc814;
+    position: relative;
+    margin-top: 5px;
+    display: inline-flex;
+padding: 8px; 
+text-decoration: none; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+margin-left: 15px;
+/* border: 1px solid rgb(62, 38, 220);  */
+border-radius: 10px;
+background-image: url("Annotation 2026-10-14 215543.jpg");
+   /* justify-content: center; */
+transition: 1s;
+
+}
+.btninbigpic:hover{
+    transform: scale(1.2);
+     animation-name:  forme;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #ffc814; 
+    background-image: url("d:\WEB PROJECT\Portfilo\Annotation 2026-10-14 233456.jpg");
+}
+.btninbigpic:active{
+    transform: scale(1.5);
+    background-color: #214094;
+    color: aliceblue;
+    box-shadow: 2px 5px 10px wheat;
+   
+}
+
+.fortwobtn{
+    position:absolute;
+   margin-top: -10px;
+    width: 250px;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin-left: 170px;
+}
+.sidebar{
+    position: fixed;
+    width: 150px;
+    height: 100%;
+    background-color: rgb(21, 21, 69);
+    position: fixed;
+    margin-top: -1px;
+    /* border: 1px solid rgb(246, 246, 245); */
+    box-shadow: 3px 6px 20px wheat;
+}
+
+#spann{
+  
+    color: rgb(190, 92, 0);
+    /* margin-left: -800px; */
+}
+
+
+hr{
+  
+    box-shadow: 5px 7px 20px brown;
+    margin-top: 20px;
+}
+/* #hr{
+   
+margin-top: 10px;
+} */
+.forname{
+
+
+    width: 90%;
+    height: 180px;
+    border: 1px   solid rgb(21, 21, 69);
+}
+#name{
+    /* box-shadow: 2px 5px 20px wheat; */
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+margin-left: 18px;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#sahar{
+    margin-left: 30px;
+    color: rgb(96, 99, 103);
+}
+.sidebarbtn{
+    /* transition: 1s; */
+ text-decoration: none;
+    display: grid;
+    /* transition: 1s; */
+    /* border: 0.5px solid rgb(251, 251, 252); */
+
+}
+
+  @keyframes forme{
+    0%{
+        transition: 1s;
+background-color: rgb(255, 0, 162);
+    }
+    25%{
+        transition: 1s;
+background-color: rgb(102, 31, 122) ;
+
+
+    }
+    50%{
+        transition: 1s;
+       background-color:  rgb(182, 96, 219);
+    }
+    75%{
+        transition: 1s;
+        background-color:  rgb(108, 108, 214);
+    }
+}
+.sidebarbtn:hover{
+    box-shadow: 5px 0px 10px rgb(20, 20, 19);
+    background-color: rgb(55, 152, 174);
+    /* transition: 1s; */
+  animation-name:  forme;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+/* background-color: rgb(180, 109, 212); */
+/* color: rgb(255, 255, 255); */
+border-radius: 5px;
+
+
+
+}
+.icons_side_bar{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+    /* border: 1px solid black; */
+   
+    
+}
+.icons_name{
+  font-size: 16px;
+    margin-top: -25px;
+    margin-left: 55px;
+   font-family:cursive;
+    color: rgb(255, 253, 253);
+}
+.icons_side_bar:hover{
+     transition: 2s ;
+    border-radius: 30px;
+    /* border-color: aliceblue; */
+    cursor: pointer;
+    /* background-color: rgb(65, 68, 71); */
+    box-shadow: -4px -5px 30px 10px rgb(233, 212, 53);
+}
+#img_in_side_bar{
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+    border-radius: 40px;
+    position: absolute;
+    box-shadow: -6px 5px  40px 10px rgb(132, 87, 4);
+}
+#programmer{
+    font-size: 15px;
+    margin-left: 20px;
+    color: rgb(134, 137, 139);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* .icon_in_side_Bar{
+    width: 20px;
+    height: 20px;
+    margin-left: -30px;
+    position: absolute;
+    margin-top: -3px;
+} */
+#work_To_gether{
+    color: aliceblue;
+   
+ font-family:cursive;
+margin-left: 10px;
+margin-top: 20px;
+
+}
+#lets{
+    width: 40px;
+    height: 40px;margin-left: 100px;
+    margin-top: -40px;
+    position: absolute;
+}
+.insidebar_for_icon{
+    width: 99%;
+    /* border: 1px solid black; */
+    height: 50px;
+    margin-top: 20px; 
+    display: inline-block; 
+   
+     
+}
+.insidebaricon{
+    margin-top: 10px;
+    width: 38px;
+    height: 38px;
+    margin-left: 5px;
+    transition: 1s ;
+    
+}
+.insidebaricon:hover{
+transform: rotateX(20deg);
+transform: scale(1.5);
+    transition: 1s ;
+    border-radius: 40px;
+    border-color: aliceblue;
+    cursor: pointer;
+    background-color: aliceblue;
+    box-shadow: -4px -5px 30px 10px rgb(233, 212, 53);
+}
+.secondlongdive{
+  
+    margin-top: 310px;
+    width: 88.1%;
+    height: 200px;
+    /* border: 1px solid rgb(7, 103, 228); */
+    margin-left: 155px;
+    /* background-image: url("Annotation 2026-10-14 215543.jpg"); */
+    filter: brightness(120%);
+      background-color: #123083;
+background-size: cover;
+border-radius: 10px;
+z-index: 1;
+
+}
+#aboutmeincard{
+    box-shadow: 2px 5px 20px rgb(255, 255, 255)  ;
+    display: inline;
+    width: 400px;
+    height: 90%;
+    /* border: 1px solid rgb(8, 31, 238); */
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+      /* background-color: #214094; */
+      background-image: url("Annotation 2026-10-14 215543.jpg");
+      position: absolute;
+}
+#skillincard{
+        box-shadow: 2px 5px 20px rgb(255, 255, 255)  ;
+
+    margin-left: 420px;
+    position: absolute;
+    display: inline-flex;
+     width: 750px;
+    height: 90%;
+    border: 1px solid rgb(8, 31, 238);
+    /* margin-left: 10px; */
+    margin-top: 10px;
+    border-radius: 20px;
+      /* background-color: #214094; */
+            background-image: url("Annotation 2026-10-14 215543.jpg");
+
+}
+#picture{
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 70px;
+    
+}
+#Aboutincard{
+    text-decoration:underline;
+    color: azure;
+margin-top: -140px;
+margin-left: 150px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#preincard{
+    
+    font-size: 10px;
+    margin-left: 130px;
+    color: rgb(236, 232, 232);
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Computer_Science_Student{
+width: 20px;
+height: 20px;
+
+
+}
+a p{
+    font-size: 10px;
+    margin-left: 45px;
+    margin-top: -20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.lo{
+    margin-top: -5px;
+}
+#myskill{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: rgb(236, 232, 232);
+margin-top: 75px;
+margin-left: 20px;
+text-decoration: underline;
+font-size: 20px;
+}
+.cardsofpelanguages{
+    background-image: url("Annotation 2026-10-14 233456.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    width: 200px;
+    height: 70px;
+    /* border: 1px solid black; */
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+      filter: brightness(180%);
+      transition: 1s;
+}
+.cardsofpelanguages:hover{
+    transform: 2s;
+    transform:translateY(-5px);
+   
+}
+.cardsofpelanguagessecondlineone{
+    background-image: url("Annotation 2026-10-14 233456.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: inline-flex;
+    width: 200px;
+    height: 70px;
+    /* border: 1px solid black; */
+    margin-left: 98px;
+      filter: brightness(180%);
+    margin-top: 100px;
+      border-radius: 10px;
+      transition: 1s;
+}
+.cardsofpelanguagessecondlineone:hover{
+     transform: 2s;
+    transform:translateY(-5px);
+}
+.cardsofpelanguagessecondlinetwo{
+    background-image: url("Annotation 2026-10-14 233456.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+      border-radius: 10px;
+    position: absolute;
+    display: inline-flex;
+    width: 200px;
+      filter: brightness(180%);
+    height: 70px;
+    /* border: 1px solid black; */
+    margin-left: 310px;
+    margin-top: 100px;
+    transition: 1s;
+}
+.cardsofpelanguagessecondlinetwo:hover{
+ transform: 2s;
+    transform:translateY(-8px);
+}
+.cardsofpelanguagessecondlinethree{
+    background-image: url("Annotation 2026-10-14 233456.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(180%);
+    position: absolute;
+      border-radius: 10px;
+    display: inline-flex;
+    width: 200px;
+    height: 70px;
+    /* border: 1px solid black; */
+    margin-left: 523px;
+    margin-top: 100px;
+    transition: 1s;
+}
+.cardsofpelanguagessecondlinethree:hover{
+     transform: 2s;
+    transform:translateY(-8px);
+}
+.figma{
+   
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+#languagename{
+color: rgb(210, 11, 0);
+margin-top: 10px;
+margin-left: 10px;
+}
+#percentagefirst{
+    width: 160px;
+    border-radius: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+    margin-top: 45px;
+    margin-left: -96px;
+     background-color: #6f8dd3;
+}
+#percetagno{
+   
+    position: absolute;
+    margin-top: 48px;
+    margin-left: 170px;
+    color: aliceblue;
+}
+#secondpercentage{
+transition: all;
+    width: 40px;
+    border-radius: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+    /* margin-top: 45px; */
+    margin-left: 0px;
+    background-color: #ff1414;
+    
+}
+#languagenamehtml{
+color: rgb(109, 65, 0);
+margin-top: 10px;
+margin-left: 10px;
+}
+.html{
+   
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+}
+#htmlno{
+   
+    position: absolute;
+    margin-top: 48px;
+    margin-left: 172px;
+    color: aliceblue;
+}
+#secondpercentagehtml{
+transition: all;
+    width: 145px;
+    border-radius: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+    /* margin-top: 45px; */
+    margin-left: 0px;
+   background-color: rgb(109, 72, 4);
+    
+}
+#languagenamejs{
+    color: #cbff11;
+margin-top: 10px;
+margin-left: 10px;
+}
+#jsno{
+     
+    position: absolute;
+    margin-top: 48px;
+    margin-left: 170px;
+    color: aliceblue;
+}
+#percentagefirstjs{
+     width: 160px;
+    border-radius: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+    margin-top: 45px;
+    margin-left: -126px;
+     background-color: #6f8dd3;
+}
+#secondpercentagejs{
+    transition: all;
+    width: 78px;
+    border-radius: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+    /* margin-top: 45px; */
+    /* margin-left: -120px; */
+   background-color: rgb(68, 255, 0);
+}
+ 
+#percentagefirstpython{
+ width: 160px;
+    border-radius: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+    margin-top: 45px;
+    margin-left: -120px;
+     background-color: #6f8dd3;
+}
+#secondpercentagepython{
+  transition: all;
+    width: 98px;
+    border-radius: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+    /* margin-top: 45px; */
+    /* margin-left: -120px; */
+   background-color: rgb(0, 0, 0);   
+}
+#languagenameDB{
+      color: #6d6d00;
+margin-top: 10px;
+margin-left: 10px;
+
+}
+#secondpercentageDB{
+ transition: all;
+    width: 38px;
+    border-radius: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+    /* margin-top: 45px; */
+    /* margin-left: -120px; */
+   background-color: rgb(25, 10, 131);
+
+}
+#languagenameCSS{
+      color: #dddd05;
+margin-top: 10px;
+margin-left: 10px;
+}
+#percentagefirstcss{
+     width: 160px;
+    border-radius: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+    margin-top: 45px;
+    margin-left: -80px;
+     background-color: #6f8dd3;
+
+}
+#secondpercentagecss{
+ transition: all;
+    width: 130px;
+    border-radius: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+    /* margin-top: 45px; */
+    /* margin-left: -120px; */
+   background-color: rgb(253, 0, 236);
+
+}
+.lastGenraldive{
+    width: 1170px;
+    height: 300px;
+    border: 1px solid black;
+    margin-left:155px;
+    margin-top: 10px;
+    border-radius: 10px;
+    filter: brightness(240%);
+background-image: url("Annotation 2026-10-14 233456.jpg");
+
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+#honeinlastgenral{
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+}
+#underhone{
+color: rgb(255, 255, 255);
+margin-left: 20px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cardinlastgenraldive{
+
+    width: 290px;
+    height: 210px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    margin-left: 10px;
+    display: inline-flex;
+    border-radius: 10px;
+ background-color: #01081d;
+ box-shadow: 5px 5px 10px rgb(30, 36, 76);    
+ transition: 1s;
+}
+.cardinlastgenraldive:hover{
+    transform: translateY(-10px);
+    transition: 1s;
+    background-color: #000000;
+}
+.lastcardinlastgenraldive{
+    color: #01081d;
+    /* background-image: url; */
+   background-color: #01081d;
+       width: 230px;
+    height: 280px;
+     box-shadow: 5px 5px 10px rgb(30, 36, 76);    
+    margin-top: -285px;
+    /* border: 1px solid black; */
+    margin-left: 930px;
+    /* display: inline-flex;  */
+     border-radius: 10px;
+     transition: 1s;
+}
+.lastcardinlastgenraldive:hover{
+    transition: 2s;
+    transform:rotateY(360deg);
+    color: #020101;
+}
+#picforcards{
+    width: 280px;
+    height: 100px;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+#BuilYourDreamWebSite{
+
+  font-style: oblique;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: #7d066c;
+position:absolute;
+margin-top: 30px;
+margin-left: 20px;
+text-shadow:7px 9px 2px rgb(233, 171, 0);
+}
+
+#forpictureincard{
+     width: 280px;
+    height: 100px;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.iconincardone{
+    
+    display:inline flex;
+    /* border-radius: 10px; */
+    margin-top: 40px;
+    margin-left: 47px;
+    width: 30px;
+
+   
+}
+h3{
+    margin-left: -220px;
+    margin-top: 145px;
+    color: rgb(255, 253, 252);
+    z-index: 1;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#modren{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 165px;
+    margin-left: 10px;
+    color: rgb(208, 174, 2);
+    z-index: 1;
+    position: absolute;
+}
+.iconincartwo{
+    width: 40px;
+    margin-top: 110px;
+    margin-left: 20px;
+}
+#figmaincards{
+    height: 30px;
+    margin-top: 108px;
+    position: absolute;
+    margin-left: 96px;
+    z-index:1;
+}
+#hthreeincardtwo{
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -5px;
+    margin-left: 90px;
+    color: rgb(255, 255, 254);
+    z-index: 1;
+    position: absolute;  
+}
+#modrenincardtwo{
+    margin-top: 15px;
+    color: rgb(188, 156, 0);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#email{
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.worktogether{
+    margin-left: 50px;
+    margin-top: -30px;
+    color: rgb(235, 137, 0);
+    font-size: 15px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#unemail{
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  font-size: 15px;  
+  margin-left: 10px;
+  margin-top: 10px;
+  color: rgb(147, 177, 202);
+}
+#sendmeassageinlast{
+    box-shadow: 2px 3px 10px black;
+    color: #0a0908;
+    position: relative;
+    margin-top: 5px;
+    display: inline-flex;
+padding: 8px; 
+text-decoration: none; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+margin-left: 60px;
+/* border: 1px solid rgb(62, 38, 220);  */
+border-radius: 10px;
+background-image: url("Annotation 2026-10-14 215543.jpg");
+   /* justify-content: center; */
+transition: 1s;
+}
+#sendmeassageinlast:hover{
+  transform: scale(1.2);
+     animation-name:  forme;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #020101; 
+    background-image: url("d:\WEB PROJECT\Portfilo\Annotation 2026-10-14 233456.jpg");
+}
+#sendmeassageinlast:active{
+ transition: 1s;
+    background-color: #f9f9fa;
+    color: rgb(6, 75, 136);
+    box-shadow: 2px 5px 10px wheat;
+   
+}
+.emailinlast{
+    width: 30px;
+    
+    height: 25px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#addresses{
+    font-size: 12px;
+    position: absolute;
+   color: #d89f00;
+   margin-top: -20px;
+   
+}
+#lastdiveinhomepage{
+    width: 88%;
+    height: 50px;
+    border:  1px solid rgb(89, 72, 200);
+    margin-top: 10px;
+    margin-left: 155px;
+    border-radius: 10px;
+    position: absolute;
+background-image: url("Annotation 2026-10-14 215543.jpg");
+
+   
+}
+#hh{
+
+    color: #454210;
+    font-style: oblique;
+    margin-left: 20px;
+margin-top: 5px;
+font-family: Arial, Helvetica, sans-serif;
+}
+#explore{
+       box-shadow: 2px 3px 10px black;
+    color: #0a0908;
+  position: absolute;
+    margin-top: -35px;
+    display: inline-flex;
+padding: 8px; 
+text-decoration: none; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+margin-left: 1000px;
+/* border: 1px solid rgb(62, 38, 220);  */
+border-radius: 10px;
+background-image: url("Annotation 2026-10-14 215543.jpg");
+   /* justify-content: center; */
+transition: 1s;
+}
+#explore:hover{
+   transform: scale(1.2);
+     animation-name:  forme;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #020101; 
+    background-image: url("d:\WEB PROJECT\Portfilo\Annotation 2026-10-14 233456.jpg");
+
+}
+#explore:active{
+    transition: 1s;
+    background-color: #f9f9fa;
+    color: rgb(6, 75, 136);
+    box-shadow: 2px 5px 10px wheat;
+}
